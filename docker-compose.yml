@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  advertisement-service:
-    build: .
-    ports:
-      - "8000:8000"
-    container_name: advertisement-api
-    restart: unless-stopped
